@@ -38,8 +38,11 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Selamat Datang!", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+            Text("Civitas", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
             SizedBox(height: 20),
+            Text("UPNYK", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+            SizedBox(height: 20),
+
             TextField(
               controller: usernameController,
               decoration: InputDecoration(labelText: "Username", border: OutlineInputBorder()),

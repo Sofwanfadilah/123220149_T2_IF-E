@@ -6,9 +6,7 @@ class HomePage extends StatelessWidget {
   HomePage({required this.username});
 
   final List<Map<String, dynamic>> songs = [
-    {'title': 'Lagu A', 'artist': 'Artis 1'},
-    {'title': 'Lagu B', 'artist': 'Artis 2'},
-    {'title': 'Lagu C', 'artist': 'Artis 3'},
+ 
   ];
 
   @override
